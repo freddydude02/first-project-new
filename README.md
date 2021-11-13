@@ -1,1 +1,2 @@
-# first-project-new
+# First-project-precourse
+hobby project done in spare time
