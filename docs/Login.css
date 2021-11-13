@@ -1,0 +1,12 @@
+main{
+  display: flex;
+  justify-content: center;
+}
+main > .login{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+main > .login > button{
+  margin-top: 10px;
+}

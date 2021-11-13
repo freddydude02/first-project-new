@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="Home.css" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="Signup.css" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>First Project</title>
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="Login.html">Login</a>
+                </li>
+                <li>
+                    <a href="Signup.html">Sign Up</a>
+                </li>
+            </ul>
+        </nav>
+        <header>
+            <h1>Register Here</h1>
+        </header>
+
+        <main>
+            <form class="signupform">
+                <label for="new-username">Username:</label>
+                <input type="new-username" required />
+                <label for="new-email">Email:</label>
+                <input type="new-email" required />
+                <label for="new-password">Create Password:</label>
+                <input type="new-password" required />
+                <label for="region">Select Region:</label>
+                <select name="region" id="region" required>
+                    <option value="oce">OCE</option>
+                    <option value="na">NA</option>
+                    <option value="eur">EUR</option>
+                    <option value="Asia">ASIA</option>
+                </select>
+                <br />
+                <button>Register</button>
+            </form>
+        </main>
+    </body>
+</html>
